@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="no-js" lang="ru"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs - кодировка, название вкладки
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Game Breakout</title>
+	<meta name="description" content="">  
+	<meta name="author" content="">
+
+   <!-- mobile specific metas 
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Bootstrap 
+	====================================================-->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<!-- End Bootstrap-->
+
+ 	<!-- CSS подключение файлов
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+        
+
+   <!-- script поключение JavaScript
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/pace.min.js"></script>
+
+   <!-- favicons 
+	==================================================
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+-->
+
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header class="short-header">   
+
+   	<div class="gradient-block"></div>	
+
+   	<div class="row header-content">
+
+   		<div class="logo">
+	         <a href="index.html">Author</a>
+	      </div>
+
+	   	<nav id="main-nav-wrap">
+            <ul class="main-navigation sf-menu">
+               <li><a href="index.html" title="">Главная</a></li>                         
+               <li class="has-children">
+                  <a href="single-standard.html" title="">Блог</a>
+                  <ul class="sub-menu">
+                     <li><a href="single-video.html">Видео</a></li>
+                     <li><a href="single-audio.html">Музыка</a></li>
+                     <li class="current"><a href="single-gallery.html">Об Игре</a></li>
+                     <li><a href="single-standard.html">Игра</a></li>
+                  </ul>
+               </li>
+               <li><a href="about.html" title="">О разработчиках</a></li>  
+               <li><a href="contact.html" title="">Как нас найти</a></li>                            
+            </ul>
+         </nav> <!-- end main-nav-wrap -->
+
+			<div class="search-wrap">
+				
+				<form role="search" method="get" class="search-form" action="#">
+					<label>
+						<span class="hide-content">Искать на сайте</span>
+						<input type="search" class="search-field" placeholder="Type Your Keywords" value="" name="s" title="Search for:" autocomplete="off">
+					</label>
+					<input type="submit" class="search-submit" value="Search">
+				</form>
+
+				<a href="#" id="close-search" class="close-btn">Закрыть</a>
+
+			</div> <!-- end search wrap -->	
+
+			<div class="triggers">
+				<a class="search-trigger" href="#"><i class="fa fa-search"></i></a>
+				<a class="menu-toggle" href="#"><span>Меню</span></a>
+			</div> <!-- end triggers -->	
+   		
+   	</div>     		
+   	
+   </header> <!-- end header -->
+
+   <!-- content
+   ================================================== -->  
+   <div id="content-wrap" class="styles">
+
+   	<div class="row narrow add-bottom text-center">
+
+   		<div class="col-twelve tab-full">
+
+   			<h1>Наша игра "Breakout Game"</h1>
+
+   			<p class="lead">Lorem ipsum Officia elit ad tempor dolore est ex incididunt incididunt occaecat culpa deserunt sunt labore in cillum ullamco magna in Excepteur consequat in reprehenderit proident mollit incididunt officia commodo.
+   			Duis ea officia sed dolor pariatur enim dolore dolore quis incididunt nulla exercitation commodo veniam et ea incididunt.</p>   			
+
+   		</div>
+
+     	</div>
+
+     	<div class="row">
+
+     		<div class="col-six tab-full">
+
+		     	<h3>О игре</h3>
+
+		      <p><a href="#"><img width="120" height="120" class="pull-left" alt="sample-image" src="images/sample-image.jpg"></a>
+		  		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque posuere nunc justo tempus leo. </p>
+
+		  		<p>
+		  		Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentumodio, ac blandit ante orci ut diam.	
+	 			</p>
+
+	      </div>
+
+	      <div class="col-six tab-full">
+
+	         <h3>Скриншоты</h3>
+
+		      <p class="drop-cap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+		      there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
+		      Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu	posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque.
+				</p>
+
+			   <h3>Системные требования</h3>
+
+			   <p>Запустите браузер<br/>
+				<small>Подключение к Интернету, клавиатура, джостик</small>
+				</p>
+
+			</div>	         
+
+		</div> <!-- end row -->
+
+		<div class="row">
+
+		  	<div class="col-six tab-full">
+
+		      <h3>Pull Quotes</h3>
+
+		      <aside class="pull-quote">
+				   <blockquote>
+					   <p>It is a paradisematic country, in which roasted parts of
+		            sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind
+		            texts it is an almost unorthographic life One day however a small line of blind text by the name
+		            of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+					</blockquote>
+				</aside>
+
+		   </div>
+
+		   <div class="col-six tab-full">
+
+		      <h3>Block Quotes</h3>
+
+		      <blockquote cite="http://where-i-got-my-info-from.com">
+				   <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
+		         to do what you believe is great work. And the only way to do great work is to love what you do.
+		         If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
+		         </p>
+					<cite>
+					   <a href="#">Steve Jobs</a>
+					</cite>
+			   </blockquote>
+
+		      <blockquote>
+		         <p>Good design is as little design as possible.</p>
+		         <cite>Dieter Rams</cite>
+		      </blockquote>
+
+		   </div>
+
+		</div> <!-- end row -->
+
+      <div class="row add-bottom">
+
+	      <div class="col-twelve">
+
+	      	<h3>Очки</h3>
+	      	<p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when building a <code>table</code>.</p>
+
+	      	<div class="table-responsive">
+
+	      		<table>
+						<thead>
+						   <tr>
+						 		<th>Name</th>
+						      <th>Age</th>
+						      <th>Sex</th>
+						      <th>Location</th>					    
+						   </tr>
+						</thead>
+						<tbody>
+						   <tr>
+						      <td>Naruto Uzumaki</td>
+						      <td>16</td>
+						      <td>Male</td>
+						      <td>Konoha</td>					    
+						   </tr>
+						   <tr>
+						      <td>Sakura Haruno</td>
+						      <td>16</td>
+						      <td>Female</td>
+						      <td>Konoha</td>			    
+						   </tr>
+						</tbody>
+				   </table>
+
+	      	</div>     		
+<hr />
+<p>Еще что-то</p>
+<hr />	      	
+	   </div> <!-- end row -->
+   
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+   	<div class="footer-main">
+
+   		<div class="row">  
+
+	      	<div class="col-four tab-full mob-full footer-info">            
+
+	            <h4>About our Game</h4>
+
+	               <p>
+		          	Наши Игры Арканоид это классические и современные аркадные игры на вашем компьютере. Абсолютно бесплатно, вы сможете играть на нашем сайте. Наша игра не оставят вас равнодушными на долгие часы!
+		          	</p>
+
+		      </div> <!-- end footer-info -->
+
+	      	<div class="col-two tab-1-3 mob-1-2 site-links">
+
+	      		<h4>Site Links</h4>
+
+	      		<ul>
+	      			<li><a href="file:///C:/Users/аня/Desktop/Game%20Site/Breakout%20Game/index.html">Главная</a></li>
+						<li><a href="file:///C:/Users/аня/Desktop/Game%20Site/Breakout%20Game/single-standard.html">Блог</a></li>
+						<li><a href="file:///C:/Users/аня/Desktop/Game%20Site/Breakout%20Game/contact.html">FAQ</a></li>
+						<li><a href="file:///C:/Users/аня/Desktop/Game%20Site/Breakout%20Game/about.html#">Команда</a></li>
+						<li><a href="https://meta.wikimedia.org/wiki/Privacy_policy/ru">Privacy Policy</a></li>
+					</ul>
+      </div> <!-- end site-links --> 
+
+	      	<div class="col-two tab-1-3 mob-1-2 social-links">
+
+	      		<h4>Social</h4>
+
+	      		<ul>
+	      			<li><a href="https://twitter.com/Dream_22_Dream">Twitter</a></li>
+						<li><a href="https://www.facebook.com/Ann9999Syubaeva">Facebook</a></li>
+						<li><a href="https://vk.com">VK</a></li>
+						<li><a href="https://myaccount.google.com/?utm_source=OGB&pli=1">Google+</a></li>
+						<li><a href="https://www.instagram.com">Instagram</a></li>
+					</ul>
+	      	           	
+	      	</div> <!-- end social links --> 
+<div class="col-four tab-1-3 mob-full footer-subscribe">
+	      	<h4>Subscribe</h4>
+
+	      		<p>Подпишитесь на нашу рассылку.</p>
+
+	      		<div class="subscribe-form">
+	      	
+	      			<form id="mc-form" class="group" novalidate="true">
+
+							<input type="email" value="" name="dEmail" class="email" id="mc-email" placeholder="Введите email &amp; нажмите enter" required=""> 
+	   		
+			   			<input type="submit" name="subscribe" >
+		   	
+		   				<label for="mc-email" class="subscribe-message"></label>
+			
+						</form>
+
+						</div>
+						
+
+	      	<div class="col-four tab-1-3 mob-full footer-subscribe">
+	      	           	
+	      	</div> <!-- end subscribe -->         
+
+	      </div> <!-- end row -->
+
+   	</div> <!-- end footer-main -->
+
+      <div class="footer-bottom">
+         <div class="row">
+
+            <div class="col-twelve">
+               <div class="copyright">
+                  <span><a href="https://ru.wikipedia.org/wiki/Taito_Corporation">© Copyright Game developer 2017</a></span> 
+                  <!-- Ссылка на сайт игры (другой)-->
+                  <span>Дополнительно <a href="http://pumpmeup.ru/category/kompaniya/imagine-software/">Imagine Software</a></span>                
+               </div>
+
+               <div id="go-top">
+                  <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon icon-arrow-up"></i></a>
+               </div>         
+            </div>
+         </div> 
+      </div> <!-- end footer-bottom -->
+
+  </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+   -->
+
+   <!-- Java Script Подключение файлов
+   =================================================================================================================== -->
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+</body>
+</html>
